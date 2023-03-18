@@ -39,4 +39,7 @@
 
 body{
   background-color: rgb(215, 220, 233);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }

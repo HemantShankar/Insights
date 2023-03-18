@@ -1,12 +1,12 @@
 .footerContent{
-    position: absolute;
+    position: relative;
     text-align: center;
     font-size: 25px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
     padding-top: 20px;
-    top: 100vh;
-    height: 20vh;
+    top:50vh;
+    /* margin-top: auto; */
     width: 100%;
     background: rgb(40, 52, 66);
 }
@@ -35,9 +35,36 @@
 }
 
 .nav-item-signup{
-    margin-left: 500px;
+    /* margin-left: 1121px; */
     margin-right: 30px;
     float: right;
     margin-top: 5px;
     font-size: 20px;
+}
+
+.Signup_heading{
+    font-size: 38px;
+    text-align: center;
+    text-decoration: solid;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+#form_signup{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.form-check{
+    font-size: 17px;
+}
+
+#submit_button{
+    font-size: 25px;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 44%;
+    color: rgb(6, 6, 249);
 }
