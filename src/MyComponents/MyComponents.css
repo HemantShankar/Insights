@@ -44,13 +44,23 @@
 
 .right-content{
     width: 60%;
-    height: 100vh;
+    height: 100%;
     float: right;
 }
 
 .left-content{
     width: 40%;
-    /* float: left; */
+    height: 100%;
+}
+
+@media (max-width: 600px) or (max-height: 600px){
+    .left-content{
+        width: 0%;
+    }
+
+    .right-content{
+        width: 100%;
+    }
 }
 
 .image-interview{
@@ -93,4 +103,41 @@
     margin-left: 22%;
     margin-right: 22%;
     margin-top: 15%;
+}
+
+.home-image{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.Home-content-heading{
+    font-size: 50px;
+    width: 100vw;
+    height: 40vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+/* @media (max-height:500px){
+    .Home-content-heading{
+        margin-top: 8%;
+    }
+} */
+
+@media (max-width:600px) {
+    .Home-content-heading{
+        font-size: 27px;
+    }
+
+    .home-page{
+        width: 90vw;
+        height: 100vh;
+    }
 }
