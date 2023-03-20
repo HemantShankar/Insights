@@ -1,6 +1,6 @@
 import React from 'react'
-import Bg_image from "./Interview.jpeg"
-import logo_img from "./insights-logo.png"
+import Bg_image from "./assests/Interview.jpeg"
+import logo_img from "./assests/insights-logo.png"
 
 const login = () => {
     return (

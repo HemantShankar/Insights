@@ -8,7 +8,7 @@ import Footer from './MyComponents/Footer.jsx';
 function App() {
   return (
     <>
-    <Home/>
+    {/* <Home/> */}
     {/* <Navbar/> */}
     {/* <Login /> */}
     {/* <Signup/> */}
