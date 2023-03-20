@@ -1,5 +1,6 @@
 import React from 'react'
 import Bg_image from "./Interview.jpeg"
+import logo_img from "./insights-logo.png"
 
 const login = () => {
     return (
@@ -22,7 +23,7 @@ const login = () => {
                 <div className="login-form">
                     <div className="in-form">
                         <div>
-                            <img className="mx-auto h-12 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company" />
+                            <img className="logo-img" src={logo_img} alt="Your Company" />
                             <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Login to your account</h2>
                             <p className="mt-2 text-center text-sm text-gray-600">
                                 Or

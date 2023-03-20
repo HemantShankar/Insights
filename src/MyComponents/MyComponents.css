@@ -79,7 +79,7 @@
 #form_signup{
     margin-right: 15%;
     margin-left: 15%;
-    margin-top: 5%;
+    /* margin-top: 5px; */
     justify-content: center;
 }
 
@@ -95,7 +95,8 @@
     font-size: 20px;
     align-items: center;
     margin-top: 15px;
-    /* margin-left: 40%; */
+    width: 200px;
+    margin-left: 0;
     color: rgb(6, 6, 249);
 }
 
@@ -131,7 +132,7 @@
     }
 } */
 
-@media (max-width:600px) {
+@media all and (max-width:600px) {
     .Home-content-heading{
         font-size: 27px;
     }
@@ -140,4 +141,104 @@
         width: 90vw;
         height: 100vh;
     }
+
+    .para-home{
+        font-size: 19px;
+        width: 60vw;
+        height: auto;
+        margin-left: 22%;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .logo-img-signup{
+        width: 80px;
+        margin-left: 41%;
+        margin-top: 10%;
+    }
+
+    .logo-img{
+        width: 80px;
+        margin-left: 35%;
+    }
+
+    .header-home-logo{
+        width: 25%;
+        height: auto;
+        float: left;
+    }
+    
+    .Home-header-link{
+        width: 75%;
+        float: right;
+    }
 }
+
+@media all and (min-width: 600px) {
+    .para-home{
+        font-size: 20px;
+        width: 30vw;
+        height: auto;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-left: 35%;
+    }
+
+    .logo-img-signup{
+        width: 80px;
+        margin-left: 45.5%;
+        margin-top: 5%;
+    }
+
+    .logo-img{
+        width: 80px;
+        margin-left: 40%;
+    }
+
+    .header-home-logo{
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+    
+    .Home-header-link{
+        width: 50%;
+        float: right;
+    }
+}
+
+/* .home-login{
+    color: white;
+    background-color: rgb(50, 50, 242);
+    font-size: 25px;
+    width: 80px;
+    padding: 3px 5px 7px 7px;
+    border-radius: 10%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+.btn{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+
+.logo-img-home{
+    width: 70px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+

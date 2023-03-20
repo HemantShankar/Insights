@@ -1,5 +1,6 @@
 import React from 'react'
 import Bg_image from "./Interview.jpeg"
+import logo_img from "./insights-logo.png"
 
 const Signup = () => {
     return (
@@ -19,6 +20,7 @@ const Signup = () => {
                         <a className="nav-link active" aria-current="page" href="#">Login</a>
                     </li>
                 </ul>
+                <img className="logo-img-signup" src={logo_img} alt="Your Company" />
                 <form className="row g-3" id='form_signup'>
                     <h2 className='Signup_heading'>Signup for your account</h2>
                     <div className="row g-3">
@@ -88,7 +90,7 @@ const Signup = () => {
                 </div>
             </div> */}
                     <div className="col-12" >
-                        <button type="submit" className="btn btn-primary" id='submit_button'>Create Account</button>
+                        <button type="submit" className="btn btn-primary" id='submit_button'>Create Account &#8702;</button>
                     </div>
                 </form>
             </div>
