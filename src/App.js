@@ -4,15 +4,17 @@ import Navbar from './MyComponents/Navbar.jsx';
 import Login from './MyComponents/Login.jsx';
 import Signup from './MyComponents/Signup.jsx';
 import Footer from './MyComponents/Footer.jsx';
+import UserProfile from './MyComponents/UserProfile.jsx';
 
 function App() {
   return (
     <>
     {/* <Home/> */}
-    {/* <Navbar/> */}
+    <Navbar/>
     {/* <Login /> */}
     {/* <Signup/> */}
     {/* <Footer/> */}
+    <UserProfile/>
     </>
     
   );

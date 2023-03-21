@@ -296,3 +296,27 @@
     margin-top: 5px;
 }
 
+/* --------------------------------------CSS for User Profile--------------------------------------------------------------------------- */
+.User-heading{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin-top: 1%;
+    /* border: solid 2px ; */
+    text-decoration: underline;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    float: left;
+    height: auto;
+}
+
+.submissions{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    height: auto;
+}
