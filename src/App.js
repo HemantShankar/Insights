@@ -13,8 +13,8 @@ function App() {
     <Navbar/>
     {/* <Login /> */}
     {/* <Signup/> */}
-    {/* <Footer/> */}
     <UserProfile/>
+    <Footer/>
     </>
     
   );

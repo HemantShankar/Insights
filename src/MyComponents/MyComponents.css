@@ -5,10 +5,10 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
     padding-top: 20px;
-    top:50vh;
+    top:80vh;
     /* margin-top: auto; */
     width: 100%;
-    background: rgb(40, 52, 66);
+    background: rgb(23, 31, 40);
 }
 
 .social-icons {
@@ -300,23 +300,85 @@
 .User-heading{
     text-align: center;
     font-size: 50px;
-    color: black;
+    font-weight: 600;
     margin-top: 1%;
     /* border: solid 2px ; */
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .info{
+    text-align: center;
     display: flex;
     flex-direction: row;
-    width: 65%;
+    width: 60%;
     float: left;
     height: auto;
+    
 }
 
 .submissions{
+    text-align: center;
     display: flex;
     flex-direction: row;
-    width: 35%;
-    height: auto;
+    width: 40%;
+    height: 1000px;
+    border-left: 1px solid;
+}
+
+.profile-photo{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.welcome-text{
+    border-bottom: 1px solid;
+    margin-left: 6%;
+}
+
+#dp{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(72, 123, 181);
+}
+
+#text{
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    margin-top: 16%;
+    /* margin-left: 5%; */
+}
+
+#submit-num{
+    font-size: 25px;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: rgb(235, 75, 75);
+}
+
+@media (max-width: 600px){
+    .info{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .submissions{
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .profile-photo{
+        margin-left: 4%;
+        margin-top: 7%;
+    }
+
+    #dp{
+        margin-top: 15%;
+        height: 140px;
+        width: 150px;
+    }
 }
