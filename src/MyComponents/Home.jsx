@@ -1,6 +1,7 @@
 import React from 'react'
 import sample from "./assests/Bg-Video.mp4"
 import logo_img from "./assests/insights-logo.png"
+import './home.css'
 
 const Home = () => {
     return (

@@ -1,6 +1,7 @@
 import React from 'react'
 import Bg_image from "./assests/Interview.jpeg"
 import logo_img from "./assests/insights-logo.png"
+import './login-signup.css'
 
 const Signup = () => {
     return (

@@ -1,5 +1,6 @@
 import React from 'react'
 import Bg_image from "./assests/Interview.jpeg"
+import './userprofile.css'
 
 const UserProfile = () => {
     return (

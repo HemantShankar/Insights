@@ -2,7 +2,7 @@ import React from 'react'
 import { BsInstagram } from "react-icons/bs"
 import { BsLinkedin } from "react-icons/bs"
 import { BsTwitter } from "react-icons/bs"
-import './MyComponents.css'
+import './footer.css'
 
 const Footer = () => {
   return (

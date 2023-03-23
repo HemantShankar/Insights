@@ -1,0 +1,148 @@
+.User-heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 1%;
+    /* border: solid 2px ; */
+    /* text-decoration: underline; */
+}
+
+.info{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: left;
+    height: auto;
+    
+}
+
+.submissions{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100vh;
+    border-left: 1px solid;
+}
+
+.vertical-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-photo{
+    margin-left: 3%;
+    margin-top: 3%;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.welcome-text{
+    border-bottom: 1px solid;
+    margin-left: 6%;
+    /* margin-right: 6%; */
+    display: flex;
+    flex-direction: column;
+}
+
+#dp{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 2px solid rgb(72, 123, 181);
+}
+
+#text{
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    margin-top: 16%;
+    /* margin-left: 5%; */
+}
+
+#submit-num{
+    font-size: 25px;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: rgb(235, 75, 75);
+}
+
+.personal-info{
+    text-align: left;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#segment{
+    display: flex;
+    flex-direction: row;
+}
+
+.tag{
+    width: 30%;
+    color: red;
+}
+
+.tag-ans{
+    width: 70%;
+}
+
+#edit_button{
+    justify-content: center;
+}
+
+@media (max-width: 600px){
+    .info{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .submissions{
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .profile-photo{
+        margin-left: 4%;
+        margin-top: 7%;
+    }
+
+    #dp{
+        margin-top: 15%;
+        height: 140px;
+        width: 150px;
+    }
+
+    .personal-info{
+        font-size: 17px;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+
+    .tag{
+        width: 30%;
+    }
+    
+    .tag-ans{
+        width: 70%;
+    }
+
+    .email{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:300px) {
+    #segment{
+        flex-direction: column;
+    }
+}
