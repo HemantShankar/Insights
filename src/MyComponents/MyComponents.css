@@ -5,7 +5,7 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
     padding-top: 20px;
-    top:80vh;
+    top:50vh;
     /* margin-top: auto; */
     width: 100%;
     background: rgb(23, 31, 40);
@@ -309,8 +309,8 @@
 .info{
     text-align: center;
     display: flex;
-    flex-direction: row;
-    width: 60%;
+    flex-direction: column;
+    width: 50%;
     float: left;
     height: auto;
     
@@ -320,24 +320,34 @@
     text-align: center;
     display: flex;
     flex-direction: row;
-    width: 40%;
-    height: 1000px;
+    width: 50%;
+    height: 100vh;
     border-left: 1px solid;
+}
+
+.vertical-1{
+    display: flex;
+    flex-direction: row;
 }
 
 .profile-photo{
     margin-left: 3%;
     margin-top: 3%;
+    /* display: flex;
+    flex-direction: row; */
 }
 
 .welcome-text{
     border-bottom: 1px solid;
     margin-left: 6%;
+    /* margin-right: 6%; */
+    display: flex;
+    flex-direction: column;
 }
 
 #dp{
-    height: 200px;
-    width: 200px;
+    height: 160px;
+    width: 160px;
     border-radius: 50%;
     border: 2px solid rgb(72, 123, 181);
 }
@@ -355,6 +365,34 @@
     margin-left: 5%;
     margin-top: 5%;
     color: rgb(235, 75, 75);
+}
+
+.personal-info{
+    text-align: left;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#segment{
+    display: flex;
+    flex-direction: row;
+}
+
+.tag{
+    width: 30%;
+}
+
+.tag-ans{
+    width: 70%;
+}
+
+#edit_button{
+    justify-content: center;
 }
 
 @media (max-width: 600px){
@@ -380,5 +418,29 @@
         margin-top: 15%;
         height: 140px;
         width: 150px;
+    }
+
+    .personal-info{
+        font-size: 17px;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+
+    .tag{
+        width: 30%;
+    }
+    
+    .tag-ans{
+        width: 70%;
+    }
+
+    .email{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:300px) {
+    #segment{
+        flex-direction: column;
     }
 }
