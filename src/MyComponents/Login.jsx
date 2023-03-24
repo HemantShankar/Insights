@@ -21,7 +21,9 @@ const login = () => {
                         <a className="nav-link active" aria-current="page" href="#">Sign Up</a>
                     </li>
                 </ul>
-                <div className="login-form">
+                <h1>hello</h1>
+                <h2>baby</h2>
+                {/* <div className="login-form">
                     <div className="in-form">
                         <div>
                             <img className="logo-img" src={logo_img} alt="Your Company" />
@@ -67,7 +69,7 @@ const login = () => {
                             </div>
                         </form>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             <div className="left-content">

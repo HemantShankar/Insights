@@ -1,21 +1,36 @@
-
-.videoTag{
-    object-fit: cover;
+.videotag{
+    /* object-fit: cover; */
+    right: 0;
+    bottom: 0;
     position: fixed;
     z-index: -1;
 }
 
 @media (min-aspect-ratio: 16/9){
-    .videoTag{
+    .videotag{
         width: 100%;
         height: auto;
+    }
+
+    .Bg-image-home{
+        display: none;
     }
 }
 
 @media (max-aspect-ratio: 16/9){
-    .videoTag{
-        width: auto;
-        height: 100%;
+    .videotag{
+        /* width: auto;
+        height: 100%; */
+        display: none;
+    }
+
+    .Bg-image-home{
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        z-index: -1;
     }
 }
 
@@ -76,6 +91,11 @@
         float: left;
         margin-left: 4%;
     } 
+
+    .Bg-image-home{
+        height: 150vh;
+        width: 150vw;
+    }
 }
 
 @media (min-width: 300px) and (max-width:600px) {
@@ -160,7 +180,7 @@
     }
 }
 
-.btn{
+.my_button{
     font-size: 22px;
     display: flex;
     justify-content: center;

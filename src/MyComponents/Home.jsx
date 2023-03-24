@@ -1,5 +1,6 @@
 import React from 'react'
 import sample from "./assests/Bg-Video.mp4"
+import Bg_image from "./assests/Interview.jpeg"
 import logo_img from "./assests/insights-logo.png"
 import './home.css'
 
@@ -21,9 +22,10 @@ const Home = () => {
                     </ul>
                 </div>
             </div>
-            <video className='videoTag' autoPlay loop muted>
+            <video className='videotag' autoPlay loop muted>
                 <source src={sample} type='video/mp4' />
             </video>
+            <img className='Bg-image-home' src={Bg_image} alt="background-image" />
             <div className="Home-content-heading">
                 <h1>
                     Dream.Decipher.Discover
@@ -34,7 +36,7 @@ const Home = () => {
             </div>
             {/* <a className="home-login" aria-current="page" href="#">Login</a> */}
             <div className="home-login">
-                <a className="btn btn-primary" href="#" role="button">Login &#8702;</a>
+                <a className="btn btn-primary my_button" href="#" role="button">Login &#8702;</a>
             </div>
 
         </div>

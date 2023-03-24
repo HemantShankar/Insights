@@ -43,7 +43,7 @@ const UserProfile = () => {
                         </div>
                     </div>
 
-                    <button type="input" className="btn btn-primary text-center" id='edit_button'>Edit</button>
+                    <button type="input" className="btn btn-primary text-center my_button" id='edit_button'>Edit</button>
                 </div>
 
                 <div className="submissions">
