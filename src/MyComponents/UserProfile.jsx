@@ -47,7 +47,8 @@ const UserProfile = () => {
                 </div>
 
                 <div className="submissions">
-                    <h1>Submissions</h1>
+                    <h1 className='heading-submissions'>Your Submissions</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quibusdam debitis asperiores, libero quas, aspernatur nemo architecto recusandae dicta, veniam nisi fugit maiores dolorum aperiam atque ex deleniti laudantium odit.</p>
                 </div>
             </div>
         </>

@@ -1,18 +1,17 @@
 .footerContent{
-    position: fixed;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    /* top: 90vh; */
-    font-size: 25px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: whitesmoke;
-    padding-top: 20px;
-    width: 100%;
-    background: rgb(23, 31, 40);
+  position: relative;
+  top: 33vh;
+  font-size: 25px;
+  text-align: center; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: whitesmoke;
+  padding-top: 20px;
+  width: 100%;
+  background: rgb(23, 31, 40);
 }
 
+.footer-para{
+}
 .social-icons {
     position: relative;
     margin-top: 10px;

@@ -7,10 +7,11 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer className="footerContent">
-      <p>
+      <p className='footer-para'>
         Copyright &copy; Hemant Shankar
+        <br />
+        Follow:
       </p>
-      <h3>Follow:</h3>
       <div className="social-icons">
         <a href="https://www.instagram.com/i__.savvy/"><BsInstagram /></a>
         <a href="https://www.linkedin.com/in/hemant-shankar/"><BsLinkedin /></a>

@@ -9,12 +9,12 @@ import UserProfile from './MyComponents/UserProfile.jsx';
 function App() {
   return (
     <>
-    <Home/>
-    {/* <Navbar/> */}
+    {/* <Home/> */}
+    <Navbar/>
     {/* <Login /> */}
     {/* <Signup/> */}
-    {/* <UserProfile/> */}
-    {/* <Footer/> */}
+    <UserProfile/>
+    <Footer/>
     </>
     
   );

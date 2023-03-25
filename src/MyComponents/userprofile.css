@@ -20,9 +20,10 @@
 .submissions{
     text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 50%;
-    height: 100vh;
+    height: 90vh;
+    padding-top: 30px;
     border-left: 1px solid;
 }
 
@@ -145,4 +146,9 @@
     #segment{
         flex-direction: column;
     }
+}
+
+.heading-submissions{
+    /* text-align: center; */
+    /* width: 100%; */
 }
