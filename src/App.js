@@ -5,6 +5,7 @@ import Login from './MyComponents/Login.jsx';
 import Signup from './MyComponents/Signup.jsx';
 import Footer from './MyComponents/Footer.jsx';
 import UserProfile from './MyComponents/UserProfile.jsx';
+import Experience from './MyComponents/Experience.jsx';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
     <Navbar/>
     {/* <Login /> */}
     {/* <Signup/> */}
-    <UserProfile/>
-    <Footer/>
+    {/* <UserProfile/> */}
+    <Experience/>
+    {/* <Footer/> */}
     </>
     
   );
