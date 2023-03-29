@@ -9,7 +9,7 @@ body{
     background-color: rgb(215, 220, 233);
     margin-top: 5%;
     margin-left: 10%;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 
 .exp-heading{
@@ -24,19 +24,21 @@ body{
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
+    margin-left: 3%;
 }
 
 .half{
     display: flex;
     flex-direction: row;
     width: 50%;
-    margin-left: 3%;
+    height: auto;
 }
 
 .other-half{
     display: flex;
     flex-direction: row;
     width: 50%;
+    height: auto;
 }
 
 .input{
@@ -61,6 +63,40 @@ body{
     
 }
 
+.hor-inp-rounds{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.rounds{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* text-align: left; */
+    margin-bottom: 30px;
+}
+
+.Textarea{
+    font-size: 22px;
+    margin-left: 45px;
+}
+
+.hor-inp-takeaway{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.hor-inp-accepted{
+    margin-top: 2.5% ;
+}
+
+textarea::placeholder {
+    font-size: 22px;
+  }
+
 @media (max-width:1300px) {
     .page{
         width: 90vw;
@@ -69,7 +105,7 @@ body{
         background-color: rgb(215, 220, 233);
         margin-top: 2%;
         margin-left: 5%;
-        margin-bottom: 2%;
+        /* margin-bottom: 2%; */
     }
     
     .exp-heading{
@@ -115,5 +151,63 @@ body{
         margin-left: 5px;
         font-size: small;
         
+    }
+    
+    .rounds{
+        width: 90%;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .Textarea{
+        font-size: 17px;
+        margin-left: 0px;
+    }
+    
+    .hor-inp-takeaway{
+        text-align: left;
+        width: 90%;
+    }
+
+    .hor-inp-accepted{
+        flex-direction: column;
+        margin-top: 7% ;
+    }
+
+    textarea::placeholder {
+        font-size: 17px;
+      }
+}
+
+@media (max-width:300px) {
+    .half{
+        margin-bottom: 7px;
+    }
+    
+    .other-half{
+        margin-bottom: 7px;
+    }
+    
+    .input{
+        width: 90px;
+        height: 30px;
+        margin-left: 1.5%;
+    }
+    
+    .input-rounds{
+        width: 50px;
+    }
+    
+    .form-check{
+        margin-left: 5px;
+    }
+    
+    .form-check-label{
+        margin-left: 2px;
+        font-size: small;
+    }
+
+    .head4{
+        font-size: 15px;
     }
 }

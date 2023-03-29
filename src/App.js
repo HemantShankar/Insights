@@ -16,7 +16,7 @@ function App() {
     {/* <Signup/> */}
     {/* <UserProfile/> */}
     <Experience/>
-    {/* <Footer/> */}
+    <Footer/>
     </>
     
   );
