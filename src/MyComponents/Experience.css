@@ -1,12 +1,8 @@
-body{
-    background-color: rgb(24, 94, 174);
-}
-
 .page{
     width: 80vw;
     text-align: center;
     height: auto;
-    background-color: rgb(215, 220, 233);
+    background-color: rgb(141, 148, 179);
     margin-top: 5%;
     margin-left: 10%;
     /* margin-bottom: 5%; */
@@ -100,9 +96,6 @@ textarea::placeholder {
 @media (max-width:1300px) {
     .page{
         width: 90vw;
-        text-align: center;
-        height: auto;
-        background-color: rgb(215, 220, 233);
         margin-top: 2%;
         margin-left: 5%;
         /* margin-bottom: 2%; */

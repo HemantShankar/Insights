@@ -2,7 +2,7 @@ import React from 'react'
 import sample from "./assests/Bg-Video.mp4"
 import Bg_image from "./assests/Interview.jpeg"
 import logo_img from "./assests/insights-logo.png"
-import './home.css'
+import './Landing.css'
 
 const Home = () => {
     return (
