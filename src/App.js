@@ -7,17 +7,19 @@ import Footer from './MyComponents/Footer.jsx';
 import UserProfile from './MyComponents/UserProfile.jsx';
 import Experience from './MyComponents/Experience.jsx';
 import About from './MyComponents/About.jsx';
+import Home from './MyComponents/Home.jsx';
 
 function App() {
   return (
     <>
-    <Landing/>
-    {/* <Navbar/> */}
+    {/* <Landing/> */}
+    <Navbar/>
     {/* <Login /> */}
     {/* <Signup/> */}
     {/* <UserProfile/> */}
     {/* <Experience/> */}
     {/* <About/> */}
+    <Home/>
     {/* <Footer/> */}
     </>
     

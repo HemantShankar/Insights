@@ -10,7 +10,7 @@
 .Page{
     display: flex;
     flex-direction: row;
-    color: rgb(4, 249, 204);
+    color: white;
     height: 100vh;
     font-weight: 500;
     font-family: sans-serif;
