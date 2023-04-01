@@ -36,7 +36,7 @@ const Home = () => {
             </div>
             {/* <a className="home-login" aria-current="page" href="#">Login</a> */}
             <div className="home-login">
-                <a className="btn btn-primary my_button" href="#" role="button">Login &#8702;</a>
+                <a className="btn btn-primary my_button" href="#" role="button">Discover Now</a>
             </div>
 
         </div>

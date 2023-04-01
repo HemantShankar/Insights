@@ -37,6 +37,10 @@ const UserProfile = () => {
                             <div className="tag">Company:</div>
                             <div className="tag-ans">E-Cell</div>
                         </div>
+                        <div className="Inst" id='segment'>
+                            <div className="tag">Institute:</div>
+                            <div className="tag-ans">National Institute of Technology, Agartala</div>
+                        </div>
                         <div className="batch" id='segment'>
                             <div className="tag">Batch:</div>
                             <div className="tag-ans">2020-2025</div>

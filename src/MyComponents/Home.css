@@ -1,4 +1,20 @@
-.Home-head{
+.Home-page{
     width: 100vw;
-    justify-content: center;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-half{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.second-half{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
 }
