@@ -20,7 +20,7 @@ function App() {
     {/* <Experience/> */}
     {/* <About/> */}
     <Home/>
-    {/* <Footer/> */}
+    <Footer/>
     </>
     
   );
