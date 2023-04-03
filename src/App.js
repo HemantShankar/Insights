@@ -13,14 +13,14 @@ function App() {
   return (
     <>
     {/* <Landing/> */}
-    <Navbar/>
+    {/* <Navbar/> */}
     {/* <Login /> */}
     {/* <Signup/> */}
     {/* <UserProfile/> */}
     {/* <Experience/> */}
     {/* <About/> */}
     <Home/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
     
   );
