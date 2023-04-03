@@ -1,6 +1,11 @@
 import React from 'react'
-import logo_img from "./assests/insights-logo.png"
+import logo_img from "./assests/logo-black.png"
 import { AiFillHome } from "react-icons/ai"
+import { CgProfile } from "react-icons/cg"
+import { AiOutlineSearch } from "react-icons/ai"
+import { BiBookAdd } from "react-icons/bi"
+import { AiOutlineInfoCircle } from "react-icons/ai"
+import { BiLogOut } from "react-icons/bi"
 import Bg_image1 from "./assests/google-logo.jpg"
 import Bg_image2 from "./assests/warner-music.png"
 import Bg_image3 from "./assests/Fb.jpg"
@@ -17,10 +22,67 @@ const Home = () => {
             <div className="first-part">
                 <img className="logo-home" src={logo_img} alt="Your Company" />
                 <div className='left-button'>
-                    <a className='left-button' href="https://www.instagram.com/i__.savvy/">
-                        <AiFillHome />
+                    <a className='left-button' href="#">
+                        <div className="icon">
+                            <AiFillHome />
+                        </div>
                         <div className="button-name">
                             Home
+                        </div>
+                    </a>
+                </div>
+
+                <div className='left-button'>
+                    <a className='left-button' href="#">
+                        <div className="icon">
+                            <CgProfile />
+                        </div>
+                        <div className="button-name">
+                            Profile
+                        </div>
+                    </a>
+                </div>
+
+                <div className='left-button'>
+                    <a className='left-button' href="#">
+                        <div className="icon">
+                            <AiOutlineSearch />
+                        </div>
+                        <div className="button-name">
+                            <input className='search-box' type="text" placeholder="Search" />
+                        </div>
+                    </a>
+                </div>
+
+                <div className='left-button'>
+                    <a className='left-button' href="https://www.instagram.com/i__.savvy/">
+                        <div className="icon">
+                            <BiBookAdd />
+                        </div>
+                        <div className="button-name">
+                            Add Experience
+                        </div>
+                    </a>
+                </div>
+
+                <div className='left-button'>
+                    <a className='left-button' href="#">
+                        <div className="icon">
+                            <AiOutlineInfoCircle />
+                        </div>
+                        <div className="button-name">
+                            About
+                        </div>
+                    </a>
+                </div>
+
+                <div className='left-button logout'>
+                    <a className='left-button' href="https://www.instagram.com/i__.savvy/">
+                        <div className="icon">
+                            <BiLogOut />
+                        </div>
+                        <div className="button-name">
+                            Log Out
                         </div>
                     </a>
                 </div>
