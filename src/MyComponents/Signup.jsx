@@ -55,9 +55,13 @@ const Signup = () => {
                         </label>
                     </div>
 
-                    <div className="col-12">
+                    <div className="col-md-6">
                         <label htmlFor="inputAddress" className="form-label">You are working at :</label>
-                        <input type="text" className="form-control" id="inputAddress" placeholder="Company/Institute Name(Optional)" />
+                        <input type="text" className="form-control" id="inputAddress" placeholder="Company/Institute Name" />
+                    </div>
+                    <div className="col-md-6">
+                        <label htmlFor="inputAddress" className="form-label">Role :</label>
+                        <input type="text" className="form-control" id="inputAddress" placeholder="SDE / PhD" />
                     </div>
                     {/* <div className="col-12">
                 <label htmlFor="inputAddress" className="form-label">Address</label>

@@ -88,7 +88,23 @@ const Home = () => {
                 </div>
             </div>
             <div className="second-part">
-                <h1>Help</h1>
+                <div className="hor-main">
+                    <div className="sort">
+                        <h4 className='sort-head'>Sort: </h4>
+                        <button className="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Choose</button>
+                        <ul className="dropdown-menu">
+                            <li><a className="dropdown-item" href="#">Latest first</a></li>
+                            <li><a className="dropdown-item" href="#">Oldest first</a></li>
+                            <li><a className="dropdown-item" href="#">Most liked</a></li>
+                            <li><a className="dropdown-item" href="#">Company</a></li>
+                        </ul>
+                    </div>
+
+                    <div className="filter">
+                        <h4 className="fliter-head">Filter:</h4>
+                        <input className='filter-input' type="text" placeholder='Company Name'/>
+                    </div>
+                </div>
             </div>
 
             <div className="third-part">
