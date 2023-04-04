@@ -29,13 +29,13 @@ const UserProfile = () => {
                             <div className="tag">E-mail:</div>
                             <div className="tag-ans">hemantshankar9595@gmail.com</div>
                         </div>
-                        <div className="occu" id='segment'>
-                            <div className="tag">Occupation:</div>
-                            <div className="tag-ans">Working Professional</div>
-                        </div>
                         <div className="comp" id='segment'>
                             <div className="tag">Company:</div>
                             <div className="tag-ans">E-Cell</div>
+                        </div>
+                        <div className="occu" id='segment'>
+                            <div className="tag">Role:</div>
+                            <div className="tag-ans">Head of Operations</div>
                         </div>
                         <div className="Inst" id='segment'>
                             <div className="tag">Institute:</div>

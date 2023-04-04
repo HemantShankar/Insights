@@ -4,6 +4,8 @@ import './Experience.css'
 const Experience = () => {
   return (
     <div className="whole-page">
+      <div className="empty">
+      </div>
       <div className="page">
         <div className="exp-heading">
           <h2>Interview Experience</h2>

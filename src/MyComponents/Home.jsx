@@ -105,6 +105,10 @@ const Home = () => {
                         <input className='filter-input' type="text" placeholder='Company Name'/>
                     </div>
                 </div>
+
+                <div className="content-box">
+                    <h4>This is content box</h4>
+                </div>
             </div>
 
             <div className="third-part">
