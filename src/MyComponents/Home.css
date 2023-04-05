@@ -1,5 +1,5 @@
 .Home-page{
-    width: 98.5vw;
+    width: 98.9vw;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -109,6 +109,98 @@ a:hover{
     border-radius: 5px;
 }
 
+.content-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12.5%;
+    margin-top: 30px;
+    width: 75%;
+    border-left: 4px solid rgba(88, 86, 86, 0.995);
+    border-right: 4px solid rgba(88, 86, 86, 0.995);
+    border-radius: 5px;
+}
+
+.upper-part{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dotted black;
+    background-color: rgba(88, 86, 86, 0.995);
+    color: white;
+}
+
+.content-picture{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 5px 5px 5px 5px;
+}
+
+.name{
+    margin-top: 3px;
+    margin-left: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-up{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.name-down{
+    font-size: 12px;
+}
+
+.middle-part{
+    /* border-bottom: 1px dotted black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.hor-content{
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+}
+
+.attribute-name{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.attribute-name-tag{
+    margin-right: 8px ;
+    margin-left: 5px;
+    color: rgb(4, 94, 150);
+}
+
+.lower-part{
+    background-color: rgba(88, 86, 86, 0.995);
+    display: flex;
+    flex-direction: row;
+}
+
+.like{
+    font-size: 22px;
+    margin-bottom: 2px;
+    color: white;
+}
+
+.like-count{
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.days{
+    width: 82%;
+    text-align: end;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+}
 /* ----------------------------------------------------------------------------------------------------- */
 
 .sec-head{
@@ -230,6 +322,23 @@ a:hover{
 
     .filter-input{
         margin-left: 5px;
+    }
+
+    .hor-content{
+        flex-direction: column;
+    }
+
+    .attribute-name{
+        width: 100%;
+    }
+
+    .days{
+        width: 65%;
+    }
+
+    .content-box{
+        width: 85%;
+        margin-left: 7.5%;
     }
 }
 

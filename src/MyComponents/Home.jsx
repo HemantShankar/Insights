@@ -6,6 +6,7 @@ import { AiOutlineSearch } from "react-icons/ai"
 import { BiBookAdd } from "react-icons/bi"
 import { AiOutlineInfoCircle } from "react-icons/ai"
 import { BiLogOut } from "react-icons/bi"
+import { AiOutlineLike } from "react-icons/ai"
 import Bg_image1 from "./assests/google-logo.jpg"
 import Bg_image2 from "./assests/warner-music.png"
 import Bg_image3 from "./assests/Fb.jpg"
@@ -102,12 +103,76 @@ const Home = () => {
 
                     <div className="filter">
                         <h4 className="fliter-head">Filter:</h4>
-                        <input className='filter-input' type="text" placeholder='Company Name'/>
+                        <input className='filter-input' type="text" placeholder='Company Name' />
                     </div>
                 </div>
 
                 <div className="content-box">
-                    <h4>This is content box</h4>
+                    <div className="upper-part">
+                        <img className='content-picture' src={Bg_image1} alt="Your Picture" />
+                        <div className="name">
+                            <div className="name-up">
+                                Hemant Shankar
+                            </div>
+                            <div className="name-down">
+                                SDE at Oracle Pvt. Ltd.
+                            </div>
+                        </div>
+                    </div>
+                    <div className="middle-part">
+                        <div className="hor-content">
+                            <div className="attribute-name">
+                                <div className="attribute-name-tag">
+                                    Company:
+                                </div>
+                                <div className="attribute-name-answer">
+                                    Oracle Pvt. Ltd.
+                                </div>
+                            </div>
+                            <div className="attribute-name">
+                                <div className="attribute-name-tag">
+                                    Role:
+                                </div>
+                                <div className="attribute-name-answer">
+                                    Front-End Enginner
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="hor-content">
+                            <div className="attribute-name">
+                                <div className="attribute-name-tag">
+                                    Difficulty:
+                                </div>
+                                <div className="attribute-name-answer">
+                                    Hard
+                                </div>
+                            </div>
+                            <div className="attribute-name">
+                                <div className="attribute-name-tag">
+                                    No. of Rounds:
+                                </div>
+                                <div className="attribute-name-answer">
+                                    03
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="hor-content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nam, distinctio quibusdam itaque maiores cum veritatis delectus corporis vero repellendus facilis deserunt iusto in accusamus, qui dolorum minus. Fugiat, minus?</p>
+                        </div>
+                    </div>
+                    <div className="lower-part">
+                        <div className="like">
+                            <AiOutlineLike />
+                        </div>
+                        <div className="like-count">
+                            15 Likes
+                        </div>
+                        <div className="days">
+                            &#8901; 2 days ago
+                        </div>
+                    </div>
                 </div>
             </div>
 
