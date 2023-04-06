@@ -4,9 +4,10 @@ body{
 
 .User-heading{
     text-align: center;
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 600;
     margin-top: 1%;
+    color: rgb(16, 107, 203);
     /* border: solid 2px ; */
     /* text-decoration: underline; */
 }
@@ -25,10 +26,18 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 90vh;
+    width: 42%;
+    height: auto;
     padding-top: 30px;
-    border-left: 1px solid;
+    margin-bottom: 50px;
+    /* border-left: 1px solid; */
+}
+
+.submission-list{
+    overflow-y: auto;
+    height: 450px;
+    margin-top: 20px;
+    width: 700px;
 }
 
 .vertical-1{

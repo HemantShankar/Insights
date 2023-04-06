@@ -56,13 +56,12 @@ const Experience = () => {
               {/* <input type="text" className="input input-round" placeholder='Share your round-02 experience in max 100 words' aria-label="Round2" /> */}
               <textarea name="round2" className="Textarea" placeholder='Share your round-02 experience in max 100 words' id="" cols="55" rows="5"></textarea>
             </div>
-            <div className="rounds round3">
+            {/* <div className="rounds round3">
               <h4 className="head4">Round#03 Experience :</h4>
-              {/* <input type="text" className="input input-round" placeholder='Share your round-03 experience in max 100 words' aria-label="Round3" /> */}
               <textarea name="round3" className="Textarea" placeholder='Share your round-03 experience in max 100 words' id="" cols="55" rows="5"></textarea>
-            </div>
+            </div> */}
             <div className="rounds round4">
-              <h4 className="head4">Round#04 Experience :</h4>
+              <h4 className="head4">Round#03 Experience :</h4>
               <textarea name="round4" className="Textarea" placeholder='Summarize the rest of the rounds in 100-150 words' id="" cols="55" rows="5"></textarea>
               {/* <input type="t" className="input input-round" placeholder='Summarize the experience of rest of the rounds in 100-150 words' aria-label="Round4" /> */}
             </div>
@@ -86,14 +85,14 @@ const Experience = () => {
               </label>
             </div>
             <div className="other-half">
-              <h4 className="head4">Final CTC (in lakhs) :</h4>
-              <input type="text" className="input input-rounds CTC" placeholder='Optional' aria-label="CTC" />
+              <h4 className="head4">Final CTC :</h4>
+              <input type="text" className="input input-rounds CTC" placeholder='in Lakhs' aria-label="CTC" />
             </div>
           </div>
 
           <div className="hor-inp hor-inp-takeaway hor-expect">
             <h4 className="head4">What to expect :</h4>
-            <textarea name="expect" className="Textarea" placeholder='What to expect from the company.(Optional)' id="" cols="45" rows="3"></textarea>
+            <textarea name="expect" className="Textarea" placeholder='What to expect from the company.(Write Not accepted, if you have not join the company)' id="" cols="45" rows="3"></textarea>
           </div>
 
           <input class="btn btn-primary me-4 mt-4 mb-2 btn-lg" type="submit" value="Submit"></input>
