@@ -348,7 +348,7 @@ const Home = () => {
                             15 Likes
                         </div>
                         <div className="days">
-                            &#8901; 2 days ago
+                            &#8901; 3 days ago
                         </div>
                     </div>
                 </div>
