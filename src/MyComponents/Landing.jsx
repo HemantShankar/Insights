@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import sample from "./assests/Bg-Video.mp4"
 import Bg_image from "./assests/Interview.jpeg"
 import logo_img from "./assests/insights-logo.png"
@@ -13,11 +14,11 @@ const Home = () => {
                 </div>
                 <div className='Home-header-link'>
                     <ul className="nav nav-pills">
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Active</a>
-                        </li>
+                        {/* <li className="nav-item">
+                            <Link  className="nav-link" to="#">Active</Link>  
+                        </li> */}
                         <li className="nav-item-signup ">
-                            <a className="nav-link active" aria-current="page" href="#">Signup </a>
+                            <Link  className="nav-link active" aria-current="page" to="Signup">Signup </Link>  
                         </li>
                     </ul>
                 </div>
@@ -34,9 +35,9 @@ const Home = () => {
             <div className="para-home">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus sunt assumenda quod corporis unde sint ipsam</p>
             </div>
-            {/* <a className="home-login" aria-current="page" href="#">Login</a> */}
+            {/* <Link  className="home-login" aria-current="page" href="#">Login</Link>   */}
             <div className="home-login">
-                <a className="btn btn-primary my_button" href="#" role="button">Discover Now</a>
+                <Link  className="btn btn-primary my_button" to="Login" role="button">Discover Now</Link>  
             </div>
 
         </div>

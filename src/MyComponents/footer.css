@@ -1,6 +1,6 @@
 .footerContent{
   /* position: relative;
-  top: 33vh; */
+  top: 50vh; */
   font-size: 25px;
   text-align: center; 
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -22,4 +22,11 @@
 
   a{
     margin-left: 15px;
+  }
+
+  @media (max-width: 600px) {
+    .footerContent{
+      position: relative;
+      top: 25vh;
+    }
   }

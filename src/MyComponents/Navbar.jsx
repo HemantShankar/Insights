@@ -1,8 +1,5 @@
 import React from 'react'
-
 import { Link } from "react-router-dom";
-
-
 import { SlOptions } from "react-icons/sl"
 import logo_img from "./assests/insights-logo-w.png"
 

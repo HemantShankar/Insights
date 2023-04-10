@@ -365,3 +365,9 @@ a:hover{
         flex-direction: column;
     }
 }
+
+@media (min-width:600px) {
+    .home-navbar{
+        display: none;
+    }
+}

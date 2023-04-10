@@ -1,12 +1,65 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+import { SlOptions } from "react-icons/sl"
+import logo_img from "./assests/insights-logo-w.png"
 import Bg_image from "./assests/Interview.jpeg"
 import { AiOutlineLike } from "react-icons/ai"
 import Bg_image1 from "./assests/google-logo.jpg"
 import './userprofile.css'
+import { BsInstagram } from "react-icons/bs"
+import { BsLinkedin } from "react-icons/bs"
+import { BsTwitter } from "react-icons/bs"
+import './footer.css'
 
 const UserProfile = () => {
     return (
         <>
+            <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark" >
+                <div className="container-fluid">
+                    <Link className="navbar-brand" to="/">
+                        <img src={logo_img} alt="Insights" width="50" height="40" />
+                    </Link>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon">
+                            <SlOptions />
+                        </span>
+                    </button>
+                    <div className="collapse  navbarLinkcollapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <Link className="nav-link active" aria-current="page" to="/Home">Home</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/UserProfile">Profile</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/Experience">Experience</Link>
+                            </li><li className="nav-item">
+                                <Link className="nav-link" to="/About">About</Link>
+                            </li>
+                            {/* <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul className="dropdown-menu">
+                                    <li><a className="dropdown-item" href="#">Action</a></li>
+                                    <li><a className="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr className="dropdown-divider" /></li>
+                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li> */}
+                        </ul>
+                        <div className="search">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search.." aria-label="Search" />
+                                <button class="btn btn-outline-success  " type="submit">Search</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+
             <div className='User-heading'>
                 <p>User Profile</p>
             </div>
@@ -302,6 +355,20 @@ const UserProfile = () => {
                     </div>
                 </div>
             </div>
+
+            <footer className="footerContent">
+                <p className='footer-para'>
+                    Copyright &copy; Hemant Shankar
+                    <br />
+                    Follow:
+                </p>
+                <div className="social-icons">
+                    <a href="https://www.instagram.com/i__.savvy/"><BsInstagram /></a>
+                    <a href="https://www.linkedin.com/in/hemant-shankar/"><BsLinkedin /></a>
+                    <a href="https://twitter.com/i___hemant"><BsTwitter /></a>
+                </div>
+
+            </footer>
         </>
     )
 }

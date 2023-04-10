@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import Bg_image from "./assests/Interview.jpeg"
 import logo_img from "./assests/insights-logo.png"
 import './login-signup.css'
@@ -18,7 +19,7 @@ const Signup = () => {
                         <a className="nav-link" href="#">Link</a>
                     </li> */}
                     <li className="nav-item-signup ">
-                        <a className="nav-link active" aria-current="page" href="#">Login</a>
+                        <Link className="nav-link active" aria-current="page" to="/Login">Login</Link>
                     </li>
                 </ul>
                 <img className="logo-img-signup" src={logo_img} alt="Your Company" />
@@ -63,39 +64,8 @@ const Signup = () => {
                         <label htmlFor="inputAddress" className="form-label">Role :</label>
                         <input type="text" className="form-control" id="inputAddress" placeholder="SDE / PhD" />
                     </div>
-                    {/* <div className="col-12">
-                <label htmlFor="inputAddress" className="form-label">Address</label>
-                <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St"/>
-            </div>
-            <div className="col-12">
-                <label htmlFor="inputAddress2" className="form-label">Address 2</label>
-                <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"/>
-            </div> */}
-                    {/* <div className="col-md-6">
-                <label htmlFor="inputCity" className="form-label">City</label>
-                <input type="text" className="form-control" id="inputCity"/>
-            </div>
-            <div className="col-md-4">
-                <label htmlFor="inputState" className="form-label">State</label>
-                <select id="inputState" className="form-select">
-                    <option selected>Choose...</option>
-                    <option>...</option>
-                </select>
-            </div>
-            <div className="col-md-2">
-                <label htmlFor="inputZip" className="form-label">Zip</label>
-                <input type="text" className="form-control" id="inputZip"/>
-            </div> */}
-                    {/* <div className="col-12">
-                <div className="form-check">
-                    <input className="form-check-input" type="checkbox" id="gridCheck"/>
-                        <label className="form-check-label" htmlFor="gridCheck">
-                            Check me out
-                        </label>
-                </div>
-            </div> */}
                     <div className="col-12" >
-                        <button type="submit" className="btn btn-primary" id='submit_button'>Create Account &#8702;</button>
+                        <Link type="submit" className="btn btn-primary" to= "/" id='submit_button'>Create Account &#8702;</Link>
                     </div>
                 </form>
             </div>

@@ -96,6 +96,15 @@ const Store = () => {
         </div>
       </div>
     </nav>
+    <Landing/>
+    <Navbar/>
+    <Login />
+    <Signup/>
+    <UserProfile/>
+    <Experience/>
+    <About/>
+    <Home/>
+    <Footer/> 
   )
 }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import Bg_image from "./assests/Interview.jpeg"
 import logo_img from "./assests/insights-logo.png"
 import './login-signup.css'
@@ -9,13 +10,13 @@ const login = () => {
             <div className="right-content">
                 <ul className="nav nav-pills">
                     {/* <li className="nav-item">
-                        <a className="nav-link" href="#">Active</a>
+                        <Link className="nav-link" to="#">Active</Link> 
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Link</a>
+                        <Link className="nav-link" to="#">Link</Link> 
                     </li> */}
                     <li className="nav-item-signup ">
-                        <a className="nav-link active" aria-current="page" href="#">Sign Up</a>
+                        <Link className="nav-link active" aria-current="page" to="/Signup">Sign Up</Link>
                     </li>
                 </ul>
                 <div className="login-form">
@@ -25,7 +26,7 @@ const login = () => {
                             <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Login to your account</h2>
                             <p className="mt-2 text-center text-sm text-gray-600">
                                 Or
-                                <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">Signup for your account</a>
+                                <Link to="/Signup" className="font-medium text-indigo-600 hover:text-indigo-500">Signup for your account</Link>
                             </p>
                         </div>
 
@@ -40,7 +41,9 @@ const login = () => {
                         </div>
 
                         <div className="submit-button text-center">
-                            <input className="btn btn-primary " type="submit" value="Submit"></input>
+                            <Link to="/Home">
+                                <input className="btn btn-primary " type="submit" value="Submit"></input>
+                            </Link>
                         </div>
                     </div>
                 </div>
