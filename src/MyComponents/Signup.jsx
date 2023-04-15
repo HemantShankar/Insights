@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import Bg_image from "./assests/Interview.jpeg"
+import Bg_image from "./assests/signup.jpg"
 import logo_img from "./assests/insights-logo.png"
 import './login-signup.css'
 
@@ -65,7 +65,7 @@ const Signup = () => {
                         <input type="text" className="form-control" id="inputAddress" placeholder="SDE / PhD" />
                     </div>
                     <div className="col-12" >
-                        <Link type="submit" className="btn btn-primary" to= "/" id='submit_button'>Create Account &#8702;</Link>
+                        <Link type="submit" className="btn btn-primary" to= "/Login" id='submit_button'>Create Account &#8702;</Link>
                     </div>
                 </form>
             </div>

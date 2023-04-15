@@ -27,6 +27,13 @@
   @media (max-width: 600px) {
     .footerContent{
       position: relative;
-      top: 25vh;
+      top: 33vh;
+    }
+  }
+
+  @media (max-width: 300px) {
+    .footerContent{
+      position: relative;
+      top: 80vh;
     }
   }

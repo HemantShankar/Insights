@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import sample from "./assests/Bg-Video.mp4"
-import Bg_image from "./assests/Interview.jpeg"
+import Bg_image from "./assests/landing-bg.jpg"
 import logo_img from "./assests/insights-logo.png"
 import './Landing.css'
 
@@ -18,7 +18,7 @@ const Home = () => {
                             <Link  className="nav-link" to="#">Active</Link>  
                         </li> */}
                         <li className="nav-item-signup ">
-                            <Link  className="nav-link active" aria-current="page" to="Signup">Signup </Link>  
+                            <Link className="nav-link active" aria-current="page" to="Signup">Signup </Link>
                         </li>
                     </ul>
                 </div>
@@ -28,16 +28,14 @@ const Home = () => {
             </video>
             <img className='Bg-image-home' src={Bg_image} alt="background-image" />
             <div className="Home-content-heading">
-                <h1>
-                    Dream.Decipher.Discover
-                </h1>
+                Dream.Discover.Decipher
             </div>
             <div className="para-home">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus sunt assumenda quod corporis unde sint ipsam</p>
+                <p>Be prepared, be informed - ace your interview with our help. Get interview-ready with the power of shared experiences.</p>
             </div>
             {/* <Link  className="home-login" aria-current="page" href="#">Login</Link>   */}
             <div className="home-login">
-                <Link  className="btn btn-primary my_button" to="Login" role="button">Discover Now</Link>  
+                <Link className="btn btn-primary my_button" to="Login" role="button">Discover Now</Link>
             </div>
 
         </div>

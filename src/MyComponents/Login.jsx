@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import Bg_image from "./assests/Interview.jpeg"
+import Bg_image from "./assests/login.jpg"
 import logo_img from "./assests/insights-logo.png"
 import './login-signup.css'
 

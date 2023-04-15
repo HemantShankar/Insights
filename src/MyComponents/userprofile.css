@@ -26,7 +26,7 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 42%;
+    width: 45%;
     height: auto;
     padding-top: 30px;
     margin-bottom: 50px;
@@ -37,7 +37,7 @@ body{
     overflow-y: auto;
     height: 450px;
     margin-top: 20px;
-    width: 700px;
+    width: 100%;
 }
 
 .vertical-1{
@@ -163,9 +163,9 @@ body{
     #segment{
         flex-direction: column;
     }
-}
 
-.heading-submissions{
-    /* text-align: center; */
-    /* width: 100%; */
+    .vertical-1{
+        flex-direction: column;
+        /* width: 20px; */
+    }
 }

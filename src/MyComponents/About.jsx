@@ -14,7 +14,7 @@ const About = () => {
         <>
             <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark" >
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">
+                    <Link className="navbar-brand" to="/Home">
                         <img src={logo_img} alt="Insights" width="50" height="40" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,12 +53,12 @@ const About = () => {
             <div className="Page">
                 <div className="Half">
                     <h1 className='head-about'>About Us</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis cupiditate et laudantium, quasi enim ipsum sequi consectetur magnam? Nihil aliquid id cum sunt quo provident debitis quas vel. Inventore, illum! Nobis alias suscipit amet. Eligendi impedit dolorem commodi ad reprehenderit laboriosam corporis s. Vel, accusantium!</p>
+                    <p>We aim to create a platform,  where alumni of our institue can share their interview experiences of their interview with a specific company. So that, if the same company visits our campus again. Then, people appearing for their interview can get the insights of the company and it's interview process. This content can range from an overview of the interview process to insights into company.</p>
                 </div>
                 <div className="other-Half">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cupiditate quibusdam minus nesciunt soluta doloribus voluptates facilis, provident natus asperiores fuga, reprehenderit unde! Nemo eveniet commodi maiores neque sit architecto nam ad? Magni, et reiciendis velit consequuntur odio pariatur facere tenetur impedit qui non?</p>
+                    <p>Employers across all industries utilize interviewing as one of the biggest determining factors in the hiring process.Interviews offer a chance and an opportunity for the recruiter and the hiring manager to meet the candidate and assess their qualifications and capabilities. Ultimately, interviews are important because it is the first face-to-face between the recruiter, the hiring manager, and the candidate.</p>
                     <div className="read-div">
-                        <a className='read' href="#">Read More</a>
+                        <a className='read' href="https://careeremployer.com/interview/why-are-interviews-so-important/">Read More</a>
                     </div>
                 </div>
             </div>
