@@ -431,7 +431,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="hor-fact">
+                    {/* <div className="hor-fact">
                         <div className="fact fact-5">
                             <img className='fact-img' src={Bg_image5} alt="Your Picture" />
                             <h4 className='fact-head'>Walmart</h4>
@@ -446,9 +446,9 @@ const Home = () => {
                                 Volkswagen Group owns some of the world’s biggest auto brands. The groups sells Audi, Bentley, Bugatti, Lamborghini, Porsche, SEAT, and Škoda. It also sells motorcycles under the Ducati brand.
                             </p>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div className="hor-fact">
+                    {/* <div className="hor-fact">
                         <div className="fact fact-7">
                             <img className='fact-img' src={Bg_image7} alt="Your Picture" />
                             <h4 className='fact-head'>Coca-Cola</h4>
@@ -463,7 +463,7 @@ const Home = () => {
                                 eBay has 25 million sellers and 157 million registered buyers. The number keeps increasing every second.
                             </p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>
