@@ -18,6 +18,7 @@ import Bg_image5 from "./assests/walmart.jpg"
 import Bg_image6 from "./assests/volkswagen.jpg"
 import Bg_image7 from "./assests/Coca.jpg"
 import Bg_image8 from "./assests/ebay.jpg"
+import Bg_image9 from "./assests/User_defaultl.png"
 import './Home.css'
 
 const Home = () => {
@@ -129,6 +130,7 @@ const Home = () => {
                         </Link>
                     </div>
                 </div>
+
                 <div className="second-part">
                     <div className="hor-main">
                         <div className="sort">
@@ -150,13 +152,13 @@ const Home = () => {
 
                     <div className="content-box">
                         <div className="upper-part">
-                            <img className='content-picture' src={Bg_image1} alt="Your Picture" />
+                            <img className='content-picture' src={Bg_image9} alt="Your Picture" />
                             <div className="name">
                                 <div className="name-up">
                                     Hemant Shankar
                                 </div>
                                 <div className="name-down">
-                                    SDE at Oracle Pvt. Ltd.
+                                    SDE at XYZ Pvt. Ltd.
                                 </div>
                             </div>
                         </div>
@@ -167,7 +169,7 @@ const Home = () => {
                                         Company:
                                     </div>
                                     <div className="attribute-name-answer">
-                                        Oracle Pvt. Ltd.
+                                        XYZ Pvt. Ltd.
                                     </div>
                                 </div>
                                 <div className="attribute-name">
@@ -273,13 +275,13 @@ const Home = () => {
 
                     <div className="content-box">
                         <div className="upper-part">
-                            <img className='content-picture' src={Bg_image1} alt="Your Picture" />
+                            <img className='content-picture' src={Bg_image9} alt="Your Picture" />
                             <div className="name">
                                 <div className="name-up">
                                     Hemant Shankar
                                 </div>
                                 <div className="name-down">
-                                    SDE at Oracle Pvt. Ltd.
+                                    SDE at XYZ Pvt. Ltd.
                                 </div>
                             </div>
                         </div>
@@ -290,7 +292,253 @@ const Home = () => {
                                         Company:
                                     </div>
                                     <div className="attribute-name-answer">
-                                        Oracle Pvt. Ltd.
+                                        XYZ Pvt. Ltd.
+                                    </div>
+                                </div>
+                                <div className="attribute-name">
+                                    <div className="attribute-name-tag">
+                                        Role:
+                                    </div>
+                                    <div className="attribute-name-answer">
+                                        Front-End Enginner
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="hor-content">
+                                <div className="attribute-name">
+                                    <div className="attribute-name-tag">
+                                        Difficulty:
+                                    </div>
+                                    <div className="attribute-name-answer">
+                                        Hard
+                                    </div>
+                                </div>
+                                <div className="attribute-name">
+                                    <div className="attribute-name-tag">
+                                        No. of Rounds:
+                                    </div>
+                                    <div className="attribute-name-answer">
+                                        03
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="hor-content">
+                                <p className="round-head">
+                                    Round#01:
+                                </p>
+                                <p className='round-content'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nam, distinctio quibusdam itaque maiores cum veritatis delectus corporis vero repellendus facilis deserunt iusto in accusamus, qui dolorum minus. Fugiat, minus?
+                                </p>
+                            </div>
+
+                            <div className="hor-content">
+                                <p className="round-head">
+                                    Round#02:
+                                </p>
+                                <p className='round-content'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nam, distinctio quibusdam itaque maiores cum veritatis delectus corporis vero repellendus facilis deserunt iusto in accusamus, qui dolorum minus. Fugiat, minus?
+                                </p>
+                            </div>
+
+                            <div className="hor-content">
+                                <p className="round-head">
+                                    Round#03:
+                                </p>
+                                <p className='round-content'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nam, distinctio quibusdam itaque maiores cum veritatis delectus corporis vero repellendus facilis deserunt iusto in accusamus, qui dolorum minus. Fugiat, minus?
+                                </p>
+                            </div>
+
+                            <div className="hor-content">
+                                <p className="round-head">
+                                    Key Takeaway:
+                                </p>
+                                <p className='round-content'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nam, distinctio quibusdam itaque maiores cum veritatis delectus corporis vero repellendus facilis deserunt iusto in accusamus, qui dolorum minus. Fugiat, minus?
+                                </p>
+                            </div>
+
+                            <div className="hor-content">
+                                <div className="attribute-name">
+                                    <div className="attribute-name-tag">
+                                        Accepted the Offer:
+                                    </div>
+                                    <div className="attribute-name-answer">
+                                        Yes
+                                    </div>
+                                </div>
+                                <div className="attribute-name">
+                                    <div className="attribute-name-tag">
+                                        Final CTC:
+                                    </div>
+                                    <div className="attribute-name-answer">
+                                        12 LPA
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="hor-content">
+                                <p className="round-head">
+                                    What to expect:
+                                </p>
+                                <p className='round-content'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nam, distinctio quibusdam itaque maiores cum veritatis delectus corporis vero repellendus facilis deserunt iusto in accusamus, qui dolorum minus. Fugiat, minus?
+                                </p>
+                            </div>
+                        </div>
+                        <div className="lower-part">
+                            <div className="like">
+                                <AiOutlineLike />
+                            </div>
+                            <div className="like-count">
+                                15 Likes
+                            </div>
+                            <div className="days">
+                                &#8901; 2 days ago
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="content-box">
+                        <div className="upper-part">
+                            <img className='content-picture' src={Bg_image9} alt="Your Picture" />
+                            <div className="name">
+                                <div className="name-up">
+                                    Hemant Shankar
+                                </div>
+                                <div className="name-down">
+                                    SDE at XYZ Pvt. Ltd.
+                                </div>
+                            </div>
+                        </div>
+                        <div className="middle-part">
+                            <div className="hor-content">
+                                <div className="attribute-name">
+                                    <div className="attribute-name-tag">
+                                        Company:
+                                    </div>
+                                    <div className="attribute-name-answer">
+                                        XYZ Pvt. Ltd.
+                                    </div>
+                                </div>
+                                <div className="attribute-name">
+                                    <div className="attribute-name-tag">
+                                        Role:
+                                    </div>
+                                    <div className="attribute-name-answer">
+                                        Front-End Enginner
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="hor-content">
+                                <div className="attribute-name">
+                                    <div className="attribute-name-tag">
+                                        Difficulty:
+                                    </div>
+                                    <div className="attribute-name-answer">
+                                        Hard
+                                    </div>
+                                </div>
+                                <div className="attribute-name">
+                                    <div className="attribute-name-tag">
+                                        No. of Rounds:
+                                    </div>
+                                    <div className="attribute-name-answer">
+                                        03
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="hor-content">
+                                <p className="round-head">
+                                    Round#01:
+                                </p>
+                                <p className='round-content'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nam, distinctio quibusdam itaque maiores cum veritatis delectus corporis vero repellendus facilis deserunt iusto in accusamus, qui dolorum minus. Fugiat, minus?
+                                </p>
+                            </div>
+
+                            <div className="hor-content">
+                                <p className="round-head">
+                                    Round#02:
+                                </p>
+                                <p className='round-content'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nam, distinctio quibusdam itaque maiores cum veritatis delectus corporis vero repellendus facilis deserunt iusto in accusamus, qui dolorum minus. Fugiat, minus?
+                                </p>
+                            </div>
+
+                            <div className="hor-content">
+                                <p className="round-head">
+                                    Round#03:
+                                </p>
+                                <p className='round-content'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nam, distinctio quibusdam itaque maiores cum veritatis delectus corporis vero repellendus facilis deserunt iusto in accusamus, qui dolorum minus. Fugiat, minus?
+                                </p>
+                            </div>
+
+                            <div className="hor-content">
+                                <p className="round-head">
+                                    Key Takeaway:
+                                </p>
+                                <p className='round-content'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nam, distinctio quibusdam itaque maiores cum veritatis delectus corporis vero repellendus facilis deserunt iusto in accusamus, qui dolorum minus. Fugiat, minus?
+                                </p>
+                            </div>
+
+                            <div className="hor-content">
+                                <div className="attribute-name">
+                                    <div className="attribute-name-tag">
+                                        Accepted the Offer:
+                                    </div>
+                                    <div className="attribute-name-answer">
+                                        Yes
+                                    </div>
+                                </div>
+                                <div className="attribute-name">
+                                    <div className="attribute-name-tag">
+                                        Final CTC:
+                                    </div>
+                                    <div className="attribute-name-answer">
+                                        12 LPA
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="hor-content">
+                                <p className="round-head">
+                                    What to expect:
+                                </p>
+                                <p className='round-content'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nam, distinctio quibusdam itaque maiores cum veritatis delectus corporis vero repellendus facilis deserunt iusto in accusamus, qui dolorum minus. Fugiat, minus?
+                                </p>
+                            </div>
+                        </div>
+                        <div className="lower-part">
+                            <div className="like">
+                                <AiOutlineLike />
+                            </div>
+                            <div className="like-count">
+                                15 Likes
+                            </div>
+                            <div className="days">
+                                &#8901; 3 days ago
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="content-box">
+                        <div className="upper-part">
+                            <img className='content-picture' src={Bg_image9} alt="Your Picture" />
+                            <div className="name">
+                                <div className="name-up">
+                                    Hemant Shankar
+                                </div>
+                                <div className="name-down">
+                                    SDE at XYZ Pvt. Ltd.
+                                </div>
+                            </div>
+                        </div>
+                        <div className="middle-part">
+                            <div className="hor-content">
+                                <div className="attribute-name">
+                                    <div className="attribute-name-tag">
+                                        Company:
+                                    </div>
+                                    <div className="attribute-name-answer">
+                                        XYZ Pvt. Ltd.
                                     </div>
                                 </div>
                                 <div className="attribute-name">
