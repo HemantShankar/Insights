@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import sample from "./assests/Bg-Video.mp4"
-import Bg_image from "./assests/landing-bg.jpg"
+import sample from "./assests/Bg-Video-2.mp4"
+import Bg_image from "./assests/Bg.jpg"
 import logo_img from "./assests/insights-logo.png"
 import './Landing.css'
 
