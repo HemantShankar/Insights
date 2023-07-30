@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import { SlOptions } from "react-icons/sl"
 import logo_img from "./assests/insights-logo-w.png"
-import Bg_image from "./assests/Interview.jpeg"
+import Bg_image from "./assests/User_defaultl.png"
 import { AiOutlineLike } from "react-icons/ai"
 import Bg_image1 from "./assests/google-logo.jpg"
 import './userprofile.css'
@@ -99,13 +99,13 @@ const UserProfile = () => {
                     <div className="submission-list">
                         <div className="content-box">
                             <div className="upper-part">
-                                <img className='content-picture' src={Bg_image1} alt="Your Picture" />
+                                <img className='content-picture' src={Bg_image} alt="Your Picture" />
                                 <div className="name">
                                     <div className="name-up">
                                         Hemant Shankar
                                     </div>
                                     <div className="name-down">
-                                        SDE at Oracle Pvt. Ltd.
+                                        SDE at XYZ Pvt. Ltd.
                                     </div>
                                 </div>
                             </div>
@@ -116,7 +116,7 @@ const UserProfile = () => {
                                             Company:
                                         </div>
                                         <div className="attribute-name-answer">
-                                            Oracle Pvt. Ltd.
+                                            XYZ Pvt. Ltd.
                                         </div>
                                     </div>
                                     <div className="attribute-name">
@@ -221,13 +221,13 @@ const UserProfile = () => {
                         </div>
                         <div className="content-box">
                             <div className="upper-part">
-                                <img className='content-picture' src={Bg_image1} alt="Your Picture" />
+                                <img className='content-picture' src={Bg_image} alt="Your Picture" />
                                 <div className="name">
                                     <div className="name-up">
                                         Hemant Shankar
                                     </div>
                                     <div className="name-down">
-                                        SDE at Oracle Pvt. Ltd.
+                                        SDE at XYZ Pvt. Ltd.
                                     </div>
                                 </div>
                             </div>
@@ -238,7 +238,7 @@ const UserProfile = () => {
                                             Company:
                                         </div>
                                         <div className="attribute-name-answer">
-                                            Oracle Pvt. Ltd.
+                                            XYZ Pvt. Ltd.
                                         </div>
                                     </div>
                                     <div className="attribute-name">
